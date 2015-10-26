@@ -6,7 +6,7 @@ version = "1.0.0"
 versionCode = "1" >
 <!-- versionCode is optional and Android only -->
 <preference name="phonegap-version" value="3.7.0" />
-<name>HotelApp</name>
+<name>CorosApp</name>
 <description>
 Aplicación de prueba para hoteles.
 </description>

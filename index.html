@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head><meta charset="utf-8">
+        <title>Coros ICIAR</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/jquery.mobile-1.4.5.min.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <div id="home" data-role="page">
+            <div data-role="header">
+                <h1>Coros Especiales</h1>
+            </div>
+            <div role="main" class="ui-content">
+                <ul data-role="listview" data-inset="true">
+                    <li><a href="#hayunafuenteenmi">HAY UNA FUENTE EN MI</a></li>
+                    <li><a href="#tufidelidad">TU FIDELIDAD</a></li>
+                </ul>
+            </div>
+            <div data-role="footer" data-position="fixed">
+                <small style="font-size:8pt;">Todos los derechos reservados &copy;2015</small>
+                <a href="#nosotros" data-transition="slideup">HAY UNA FUENTE EN MI</a>
+            </div>
+        </div>
+        
+        <div id="tufidelidad" data-role="page">
+            <div data-role="header">
+                <h1>TU FIDELIDAD</h1>
+                <a href="#" data-rel="back" >Atras</a>
+            </div>
+            <div role="main" class="ui-content">
+                <p style="text-align:justify;">
+                    Tu fidelidad es grande,<br>
+                    Tu fidelidad incomparable es,<br>
+                    Nadie como tu bendito Dios,<br>
+                    Grande es tu fidelidad
+                    </p>
+            </div>
+        </div>
+        <div id="hayunafuenteenmi" data-role="page">
+            <div data-role="header">
+                <h1>HAY UNA FUENTE EN MI</h1>
+                <a href="#" data-rel="back" >Atras</a>
+            </div>
+            <div role="main" class="ui-content">
+                <p style="text-align:justify;">
+                    //Hay una fuente en mi,<br>
+                    Que está brotando,<br>
+                    Que está fluyendo dentro de mi//<br>
+                    //Es un rio de alabanza y de adoracion<br>
+                    Dirigido hacia ti Señor Jesús, recibelo//
+                    </p>
+            </div>
+        </div>
+        <div id="registro" data-role="page">
+            <div data-role="header">
+                <h1>Registro</h1>
+            </div>
+            <div role="main" class="ui-content">
+                <ul data-role="listview" >
+                    <li data-role="list-devider">Datos Personales</li>
+                    <li><input type="text" id="regNom" placeholder="Nombre"></li>
+                    <li><input type="tel" id="regTel" placeholder="Telefono"></li>
+                    <li><input type="email" id="regMail" placeholder="Correo Electronico"></li>
+                    <li><a href="#" id="tomarFoto">Tomar Foto</a> </li>
+                    <li id="fotoTomada"></li>
+                </ul>
+                <div id="regPhoto"></div>
+            </div>
+            <div data-role="footer" data-position="fixed">
+                <div data-role="navbar">
+                    <ul>
+                        <li><a href="#" class="ui-btn-active" id="regSend">Registrar</a></li>
+                    </ul>
+                </div><!-- /navbar -->
+            </div>
+        </div>
+        <script src="phonegap.js"></script>
+        <script src="js/jquery.js"></script>
+        <script src="js/jquery.mobile-1.4.5.min.js"></script>
+        <!--script src="js/actions.js"></script>
+        <script src="js/API/fileTransfer.js"></script>
+        <script src="js/API/camara.js"></script-->
+        
+    </body>
+</html>
